@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="login">
     <!--<mt-header fixed title="醒银POS登录"></mt-header>-->
     <section id="content">
       <h3></h3>
@@ -12,8 +12,8 @@
 </template>
 
 <script>
-  import '../static/css/base.css'
-  export default {
+import '../../../static/css/base.css'
+export default {
     name: 'App',
     data () {
       return {
@@ -26,11 +26,11 @@
 </script>
 
 <style>
-  #app {
+  #login {
     width: 100vw;
     height: 100vh;
     color:#333;
-    background: url(../static/images/logo.jpg) no-repeat center center;
+    background: url(../../../static/images/logo.jpg) no-repeat center center;
     background-size: cover;
   }
 
@@ -49,7 +49,7 @@
     border:5px solid #43a647;
     text-align: center;
     color:#fff;
-    background: url(../static/images/logo_login.jpg) no-repeat center center;
+    background: url(../../../static/images/logo_login.jpg) no-repeat center center;
     background-size: 100px 100px;
     margin-bottom: 2rem;
   }
