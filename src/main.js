@@ -7,13 +7,10 @@ import App from './App'
 // noinspection JSAnnotator
 import router from './router'
 
-// 引入mui样式文件
-// noinspection JSAnnotator
-import '../static/mui/css/mui.css'
-// noinspection JSAnnotator
-import '../static/mui/css/icons-extra.css'
-
-import '../static/css/base.css'
+// 引入mint-Ui
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+Vue.use(MintUI)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
