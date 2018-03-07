@@ -11,3 +11,6 @@ select, textarea, input[type='text'], input[type='search'], input[type='password
   border-radius: 0;
   background-color: transparent;
 }
+li{
+  list-style: none;
+}
